@@ -1,38 +1,35 @@
-form {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  form label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  form input[type="text"],
-  form input[type="email"],
-  form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  form textarea {
-    height: 120px;
-  }
-  
-  form input[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
+.formulario-geral {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.formulario-geral label {
+  display: block;
+  margin-top: 20px;
+}
+
+.formulario-geral input[type="text"],
+.formulario-geral input[type="email"],
+.formulario-geral input[type="number"],
+.formulario-geral select,
+.formulario-geral textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.formulario-geral button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.formulario-geral button[type="submit"]:hover {
+  background-color: #45a049;
+}
